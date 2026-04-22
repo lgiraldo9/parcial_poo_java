@@ -1,7 +1,18 @@
-
+/*
+ * Grupo        : Parcial Programación Orientada a Objetos - Corte 2
+ * Asignatura   : Programación Orientada a Objetos
+ * Docente      : Ricardo Durán
+ * Cuatrimestre : 2
+ * Fecha        : 21/04/2026
+ *
+ * Integrantes:
+ * 1. Paula Cañon              - Cédula: 31583545
+ * 2. Luis Giraldo             - Cédula: 1045742349
+ * 3. Cristian Enríquez Angulo - Cédula: 1087201202
+ */
 void main(String[] args){
     //se crea la Biblioteca
-    Biblioteca biblioteca = new Biblioteca("Biblioteca Unisalamanca");
+    Biblioteca biblioteca = new Biblioteca("Biblioteca Universal de Barranquilla");
 
     // se crea el autor
 
