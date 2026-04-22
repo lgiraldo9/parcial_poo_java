@@ -5,7 +5,8 @@ public class Biblioteca {
     private ArrayList<Socio> socios;
 
     public Biblioteca(String bibliotecaUnisalamanca){
-
+        material = new ArrayList<>();
+        socios = new ArrayList<>();
     }
 
     public Biblioteca(String nombre, ArrayList<Material> material, ArrayList<Socio> socios) {

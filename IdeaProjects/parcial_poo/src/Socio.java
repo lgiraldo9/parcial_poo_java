@@ -9,11 +9,11 @@ public class Socio {
         prestamos = new ArrayList<>();
     }
 
-    public Socio(String cedula, String nombre, double multa, ArrayList<Prestamo> prestamos) {
-        this.cedula = cedula;
-        this.nombre = nombre;
-        this.multa = multa;
-        this.prestamos = prestamos;
+    public Socio(String cedula, String nombre, double multa) {
+        setCedula(cedula);
+        setNombre(nombre);
+        setMulta(multa);
+        prestamos = new ArrayList<>();
     }
 
     public String getCedula() {
@@ -32,6 +32,14 @@ public class Socio {
         this.nombre = nombre;
     }
 
+    public double getMulta() {
+        return multa;
+    }
+
+    public void setMulta(double multa) {
+        this.multa = multa;
+    }
+
     public ArrayList<Prestamo> getPrestamos() {
         return prestamos;
     }
@@ -40,13 +48,6 @@ public class Socio {
         this.prestamos = prestamos;
     }
 
-    public double getMulta() {
-        return multa;
-    }
-
-    public void setMulta(double multa) {
-        this.multa = multa;
-    }
     public void agregarPrestamo(Prestamo p){
         if(p == null){
             throw new IllegalArgumentException("El préstamo no puede ser nulo.");
